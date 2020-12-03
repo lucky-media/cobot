@@ -12,11 +12,10 @@ const rules = `**If you are the last one to leave please make sure to:**
 ***Lock the door with the :key: key***
 `;
 
-
 module.exports = {
-  name: 'leave',
-	description: 'What to do before leaving?',
-	execute(message, args) {
-		message.reply(rules);
-	},
-}
+  name: "leave",
+  description: "What to do before leaving?",
+  execute(message) {
+    message.reply(rules);
+  },
+};

@@ -1,9 +1,9 @@
 const { MessageEmbed } = require("discord.js");
 
 module.exports = {
-  name: 'help',
-	description: 'List of all commands',
-	execute(message) {
+  name: "help",
+  description: "List of all commands",
+  execute(message) {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
@@ -22,5 +22,5 @@ module.exports = {
     helpEmbed.setTimestamp();
 
     return message.channel.send(helpEmbed).catch(console.error);
-	},
-}
+  },
+};

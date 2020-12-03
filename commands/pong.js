@@ -1,7 +1,7 @@
 module.exports = {
-  name: 'pong',
-	description: 'Pong!',
-	execute(message, args) {
-		message.reply('Ping haha I got you!');
-	},
-}
+  name: "pong",
+  description: "Pong!",
+  execute(message) {
+    message.reply("Ping haha I got you!");
+  },
+};
