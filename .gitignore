@@ -59,3 +59,6 @@ typings/
 .yarn-integrity
 
 .env
+.vs/cobot/v16/.suo
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json

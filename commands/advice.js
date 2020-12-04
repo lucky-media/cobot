@@ -1,9 +1,5 @@
 const axios = require("axios");
 
-async function sleep(ms) {
-  return Promise((resolve) => setTimeout(resolve, ms));
-}
-
 async function getAdvice() {
   return await axios("https://api.adviceslip.com/advice").then(
     (res) => res.data.slip
